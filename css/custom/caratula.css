@@ -1,0 +1,40 @@
+
+:root{
+    --underline: underline;
+    --color-vue: #42b883;
+    --cursor-pointer: pointer;
+}
+a.vue{
+    color: var(--color-vue);  
+}
+
+a:hover{
+    text-decoration: var(--underline);
+    cursor: var(--cursor-pointer);
+}
+
+.caratula-subtitulo{
+    font-size: 45px;
+}
+
+.name{
+    font-size: 40px;
+}
+
+.tesista{
+    background-color: var(--color-vue);
+}
+
+.volver-framework-progresivo{
+    font-size: 40px;
+}
+
+.padre {
+    display: flex;
+    align-items: center;
+ }
+
+.edificio , .paquete-imagenes {
+    display: flex;
+    align-items: center;
+ }
